@@ -139,7 +139,15 @@ function speakThis(message) {
         speech.text = finalText;
 
     }
+    
 
+    else if(message.includes('modalità gaming')) {
+
+        const finalText = "Buona giocata capo";
+
+        speech.text = finalText;
+
+    }
 
     else if(message.includes('è il giorno più bello')) {
 
@@ -193,6 +201,17 @@ function speakThis(message) {
         window.open("https://glovoapp.com/it/it/", "_blank");
 
         const finalText = "Subito Capo, vuole ordinare qual'cosa'";
+
+        speech.text = finalText;
+
+    }
+
+
+    else if(message.includes('apri whatsapp')) {
+
+        window.open("https://www.bing.com/search?q=whatsapp&filters=dtbk:%22MCFvdmVydmlldyFvdmVydmlldyFlMjIyZjRlYy02MTk1LWEzMDAtNmUyYS1kMTUwOTNhZWNlMjY%3d%22+sid:%22e222f4ec-6195-a300-6e2a-d15093aece26%22+tphint:%22f%22&FORM=DEPNAV", "_blank");
+
+        const finalText = "Subito Capo, apro whatsapp";
 
         speech.text = finalText;
 
