@@ -168,7 +168,7 @@ function speakThis(message) {
     }
 
 
-    else if(message.includes('quanti iscritti ho?')) {
+    else if(message.includes('quanti iscritti ho')) {
 
         const finalText = "Lei nè ha 625";
 
