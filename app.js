@@ -148,15 +148,7 @@ function speakThis(message) {
         speech.text = finalText;
 
     }
-    
-
-    else if(message.includes('modalità gaming')) {
-
-        const finalText = "Buona giocata capo";
-
-        speech.text = finalText;
-
-    }
+  
 
     else if(message.includes('è il giorno più bello')) {
 
@@ -178,7 +170,7 @@ function speakThis(message) {
 
     else if(message.includes('quanti iscritti ho?')) {
 
-        const finalText = "Lei nè ha 565";
+        const finalText = "Lei nè ha 625";
 
         speech.text = finalText;
 
